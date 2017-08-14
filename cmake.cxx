@@ -193,7 +193,7 @@ void cmake::SetArgs(std::vector<std::string> const& args)
 
   Json::Value protocol_version = Json::objectValue;
   protocol_version["major"] = 1;
-  protocol_version["minor"] = 0;
+  protocol_version["minor"] = 1;
 
   Json::Value body = Json::objectValue;
   body["protocolVersion"] = protocol_version;
